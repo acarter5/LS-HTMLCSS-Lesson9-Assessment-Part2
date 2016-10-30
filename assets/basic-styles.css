@@ -105,6 +105,11 @@ a:hover {text-decoration: underline; }
 .article_share {
    margin: 10px 0; 
  }
+
+ .article_share img {
+  margin-right: 5px;
+ }
+
 .en_blog_body, .en_blog_body p { font-size: 16px; font-size: 1.6rem; line-height: 24px; line-height: 2.4rem; }
 .kaltura-video-wrapper { position:relative; width:100%; height:33px; padding-bottom:56.25%; }
 .kaltura-video-wrapper img.kWidgetCentered { position:absolute; width:100%; height:100%; }
@@ -112,15 +117,10 @@ a:hover {text-decoration: underline; }
 
 .blog img {
   float: left;
-  margin: 0 3px 5px 0;
 }
 
 img.simmons {
   margin-right: 10px;
-}
-
-.article_share img.first-of-type {
-  margin-left: 0;
 }
 
 
@@ -146,7 +146,7 @@ img.simmons {
 } 
 
 .blog p {
-  margin: 12px 0;
+  margin: 16px 0;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
@@ -231,8 +231,8 @@ div#sponsor_contact {
 
 /*    HEADLINES   */
 
-h1 { font-size: 34px; font-size: 3.4rem; line-height: 38px; line-height: 3.8rem;
-  margin: 20px 0;  
+h1 { font-size: 34px; font-size: 3.4rem; line-height: 38px;
+  margin: 18px 0;  
 }
 
 h1, h2, h3 {
